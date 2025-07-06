@@ -1,0 +1,16 @@
+# Ignore large data and intermediate files
+/data/
+!/data/raw/
+!/data/interim/
+
+# Conda environments
+.env/
+
+# Jupyter and snakemake artifacts
+*.ipynb_checkpoints
+.snakemake/
+
+# Logs and temporary files
+logs/
+*.log
+

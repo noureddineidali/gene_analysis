@@ -1,0 +1,11 @@
+name: metarhizium
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.10
+  - snakemake
+  - pandas
+  - numpy
+  - jupyterlab
